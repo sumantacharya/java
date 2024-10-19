@@ -4,9 +4,7 @@ public class AirConditioner{
 	int price;
 	String rating;
  
- public AirConditioner(){
-System.out.println("no param\n");
- }
+ 
  public AirConditioner(String brand,String model,int price,String rating){
  	this.brand=brand;
  	this.model=model;
